@@ -151,4 +151,4 @@ Select Book_title, category from books where category='History';
 /* 10. Retrieve the branch numbers along with the count of employees for branches having more than 5 employees. */
 
 Select Branch_no, COUNT(*) AS Total_Count FROM BRANCH JOIN EMPLOYEE  ON BRANCH .MANAGER_ID= EMPLOYEE.EMP_ID
-GROUP BY Branch_no HAVING Total_Count > 9;
+GROUP BY Branch_no HAVING Total_Count > 5;
