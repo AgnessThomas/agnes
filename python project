@@ -64,3 +64,42 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+OUTPUT
+
+Enter your account number: 1234567890
+Enter your password: pinnochio255
+Login successful.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Select an option: 1
+Enter the deposit amount: 25896
+Deposited $25896.00. New balance: $25896.00
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Select an option: 2
+Enter the withdrawal amount: 2000
+Withdrew $2000.00. New balance: $23896.00
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Select an option: 3
+Current balance: $23896.00
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Select an option: 4
+Exiting the program.
+
+Process finished with exit code 0
